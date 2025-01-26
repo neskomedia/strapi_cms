@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bloggs",
+  "info": {
+    "singularName": "blogg",
+    "pluralName": "bloggs",
+    "displayName": "Blogg"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}
